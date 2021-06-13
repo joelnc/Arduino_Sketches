@@ -141,7 +141,7 @@ void loop() {
 
 	if (data.pm25_standard < 10) {
 		testdrawrects(ST7735_GREEN);
-	} else if (data.pm25_standard < 25){
+	} else if (data.pm25_standard < 30){
 		testdrawrects(ST7735_ORANGE);
 	} else {
 		testdrawrects(ST7735_RED);
